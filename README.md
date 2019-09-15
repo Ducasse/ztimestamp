@@ -70,5 +70,13 @@ You can also load using the following expression:
       baseline: 'ZTimestamp';
       repository: 'github://svenvc/ztimestamp';
       load.
-   
+      
+If you want to depend on it in your projects
+
+```
+spec 
+   baseline: 'ZTimestamp' 
+   with: [ spec repository: 'github://svenvc/ztimestamp:v24/rsrc' ].
+```
+
 Written and supported by Sven Van Caekenberghe. MIT Licensed.
